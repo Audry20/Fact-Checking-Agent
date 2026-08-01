@@ -1,2 +1,11 @@
 flask
 gunicorn
+requests
+groq
+langdetect
+crewai
+litellm
+beautifulsoup4
+tavily-python
+firebase-admin
+pydantic
