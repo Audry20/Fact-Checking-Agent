@@ -1,0 +1,14 @@
+curl -X POST http://localhost:5000/webhook \
+  -H "Content-Type: application/json" \
+  -d '{
+    "entry": [{
+      "changes": [{
+        "value": {
+          "messages": [{
+            "from": "25761998688",
+            "type": "text",
+            "text": {"body": "Le FMI a annonce un nouveau pret d
+e 500 millions de dollars au Burundi cette semaine."}
+          }]
+        }
+  }'}]}]

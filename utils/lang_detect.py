@@ -1,6 +1,5 @@
 from langdetect import detect, DetectorFactory, LangDetectException
 
-
 DetectorFactory.seed = 0
 
 
